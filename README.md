@@ -1,6 +1,7 @@
 # 🥚 SUNNY-SIDE-UP
 스파르타코딩클럽 내일배움캠프 AI트랙 3회차_미니프로젝트2_B4 선라이즈 
 
+<img src="https://user-images.githubusercontent.com/112548916/194297988-38883c1c-67db-4da7-80c4-dacddd0b46a0.mp4">
 
 ## 프로젝트 설명
 
