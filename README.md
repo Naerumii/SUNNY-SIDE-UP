@@ -6,7 +6,7 @@
 
 ### 목표
 
-- <Django 실무 기초>에서 실습하며 만들었던 mySpartaSns를 기반으로 한 웹서비스 개발
+- <Django 실습 기초>에서 실습하며 만들었던 mySpartaSns를 기반으로 한 웹서비스 개발
 - mySpartaSns 개발에 사용했던 코드를 기반으로 Instagram과 유사한 형태의 SNS 서비스 만들기
 - Django 프로젝트에서 User, Tweet 등의 APP을 개발하고 DB, HTML과 연동하기
 
