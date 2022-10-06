@@ -99,6 +99,7 @@ def delete_comment(request,id):
 @login_required
 def modify_content(request,id):
     my_content = ContentModel.objects.get(id=id)
+    user_list = UserModel.objects.all().exclude(username = request.user.username)
     if request.method == 'POST':
         my_content.contents = request.POST['my-content']
         my_content.image = request.FILES['imgs']
@@ -106,7 +107,7 @@ def modify_content(request,id):
 
         return redirect('/content')
 
-    return render(request, 'content/content_modify.html', {'content': my_content})
+    return render(request, 'content/content_modify.html', {'content': my_content,'user_list':user_list})
 
 
 
